@@ -1,8 +1,6 @@
 # Multi Threaded Files Downloader
 
-[![NPM](https://nodei.co/npm/mt-files-downloader.png)](https://nodei.co/npm/mt-files-downloader/)
-
-This module wrap the [mt-downloader](https://www.npmjs.com/package/mt-downloader) module and let you :
+This module wrap the [zeltice-mt-downloader](https://www.npmjs.com/package/zeltice-mt-downloader) module and let you :
 
 - Manage multiple downloads
 - Get stats (speed, eta, completed, etc)
@@ -81,7 +79,7 @@ The Downloader object exposes some formatters for the stats as static methods :
 
 ### Properties
 
-- status : 
+- status :
     - -3 = destroyed
     - -2 = stopped
     - -1 = error
